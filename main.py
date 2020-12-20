@@ -1,10 +1,10 @@
 import tkinter.messagebox as tm
 import tkinter
 
-import wekwek
+from module import kalkulasi_persamaan
 
 def show():
-    tm.showinfo(title="Hasil", message=wekwek.kalkukasi_turunan(persamaan.get(), berapa_kali.get()))
+    tm.showinfo(title="Hasil", message=kalkulasi_persamaan.kalkukasi_turunan(persamaan.get(), berapa_kali.get()))
     
 root = tkinter.Tk()
 
